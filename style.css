@@ -1,0 +1,102 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(10, 10, 10);
+
+  font-family: 'Roboto Mono', monospace;
+
+  color: rgb(2, 168, 246);
+  text-shadow: 2px 2px 10px rgba(2, 168, 246, .4);
+}
+
+
+/* ################################################################### */
+
+
+h1 {
+  border-bottom: 5px solid rgb(2, 168, 246);
+  padding-bottom: 5px;
+
+  width: 280px;
+  margin: 30px auto;
+
+  font-size: 22px;
+}
+
+
+
+/* ################################################################### */
+
+#calcMain {
+  margin: 40px auto 0;
+
+  width: 290px;
+  height: 430px;
+
+  border: 5px solid rgb(2, 168, 246);
+  border-radius: 15px;
+  box-shadow: 1px 1px 6px 4px rgba(2, 168, 246, .2);
+
+  display: flex;
+  flex-direction: column;
+}
+
+#calcDisplay {
+  margin: 20px auto 10px;
+  width: 240px;
+  height: 44px;
+
+
+  border: 5px solid rgb(2, 168, 246);
+  border-radius: 15px;
+  box-shadow: 1px 1px 6px 4px rgba(2, 168, 246, .2);
+}
+
+#calcDisplay p {
+  text-align: right;
+  font-size: 40px;
+  padding-right: 10px;
+  margin-top: -5px;
+}
+
+
+
+/* ################################################################### */
+
+
+#calcButtons {
+  height: 325px;
+  width: 260px;
+  padding: 0 10px 0 10px;
+  margin: 5px auto 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button {
+  margin: 5px;
+  width: 45px;
+  height: 45px;
+
+  border: 5px solid rgb(2, 168, 246);
+  border-radius: 15px;
+  box-shadow: 1px 1px 6px 4px rgba(2, 168, 246, .2);
+
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(2, 168, 246);
+  color: black;
+  box-shadow: 1px 1px 6px 5px rgba(2, 168, 246, .3);
+}
+
+#equals {
+  width: 110px;
+}
